@@ -44,9 +44,11 @@ function CreateArea(props) {
           placeholder="Take a note..."
           rows="3"
         />
+        
         <Fab onClick={submitNote}>
           <AddIcon />
         </Fab>
+        
       </form>
     </div>
   );
